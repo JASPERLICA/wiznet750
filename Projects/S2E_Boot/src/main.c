@@ -434,7 +434,7 @@ int8_t process_dhcp(void)
 #ifdef _MAIN_DEBUG_
 			printf(" - DHCP Failed\r\n\r\n");
 #endif
-			DHCP_stop(); 
+			//DHCP_stop(); //JasperLi20231120
 			break;
 		}
 
